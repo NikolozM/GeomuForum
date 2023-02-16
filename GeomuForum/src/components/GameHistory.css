@@ -1,0 +1,73 @@
+.game-history {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    }
+    
+    .game-history__title {
+    margin-top: 0;
+    }
+    
+    .game-history__list {
+    display: grid;
+    gap: 1rem;
+    }
+    
+    .game-history__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #f5f5f5;
+    }
+    
+    .game-history__date {
+    margin: 0;
+    }
+    
+    .game-history__result {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    }
+    
+    .game-history__result--win {
+    color: green;
+    }
+    
+    .game-history__result--loss {
+    color: red;
+    }
+    
+    .game-history__pagination {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .pagination {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .page-item {
+    margin-right: 0.5rem;
+    }
+    
+    .page-item:last-child {
+    margin-right: 0;
+    }
+    
+    .page-link {
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    }

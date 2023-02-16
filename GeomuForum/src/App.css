@@ -1,0 +1,106 @@
+html,
+body {
+  height: 100%;
+}
+
+.my-component {
+  background-image: url('./assets/image.png');
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 100px);
+  /* Other background properties like repeat, attachment, and color */
+}
+
+.my-component-footer {
+  background-image: url('./assets/bottom-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  /* Other footer properties like repeat, attachment, and color */
+}
+
+.topbar-container {
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.topbar-section {
+  font-size: 18px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.topbar-section.active {
+  font-weight: bold;
+}
+
+
+
+
+
+
+footer {
+  /* background-color: #1f1f1f; */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 30px 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-image: url('./assets/bottom-bg.jpg');
+  /* background-size: cover;
+  background-position: center;
+  height: 100px; */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  width: 40%;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.fa-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+
