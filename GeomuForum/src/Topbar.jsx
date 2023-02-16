@@ -1,54 +1,55 @@
 import React, { useState } from 'react';
 import './App.css';
-import GameHistory from './components/GameHistory';
-function Topbar() {
-  const [activeTab, setActiveTab] = useState('game history');
+import GameHistory from './components/GeneralInformation';
 
-  const handleTabClick = (tab) => {
-    setActiveTab(tab);
-  };
-
+function Topbar({ handleTabClick, setActiveTab, activeTab }) {
   return (
-    <div className="topbar-container">
-      <div className="topbar">
-        <div
-          className={`topbar-section ${activeTab === 'game history' ? 'active' : ''}`}
-          onClick={() => handleTabClick('game history')}
-        >
-          Game History
+    <div>
+      <div className='topbar-container'>
+        <div className='topbar'>
+          <div
+            className={`topbar-section ${activeTab === 'General Information' ? 'active' : ''}`}
+            onClick={() => handleTabClick('General Information')}
+          >
+            General Information
+          </div>
+          <div
+            className={`topbar-section ${activeTab === 'Server Currencies' ? 'active' : ''}`}
+            onClick={() => handleTabClick('Server Currencies')}
+          >
+            Server Currencies
+          </div>
+          <div
+            className={`topbar-section ${activeTab === 'Event System' ? 'active' : ''}`}
+            onClick={() => handleTabClick('Event System')}
+          >
+            Event System
+          </div>
+          <div
+            className={`topbar-section ${activeTab === 'Box System' ? 'active' : ''}`}
+            onClick={() => handleTabClick('Box System')}
+          >
+            Box System
+          </div>
+          <div
+            className={`topbar-section ${activeTab === 'Reset Information' ? 'active' : ''}`}
+            onClick={() => handleTabClick('Reset Information')}
+          >
+            Reset Information
+          </div>
+          <div
+            className={`topbar-section ${activeTab === 'Game Commands' ? 'active' : ''}`}
+            onClick={() => handleTabClick('Game Commands')}
+          >
+            Game Commands
+          </div>
+          <div
+            className={`topbar-section ${activeTab === 'Vip System' ? 'active' : ''}`}
+            onClick={() => handleTabClick('Vip System')}
+          >
+            Vip System
+          </div>
         </div>
-        <div
-          className={`topbar-section ${activeTab === 'about' ? 'active' : ''}`}
-          onClick={() => handleTabClick('about')}
-        >
-          About
-        </div>
-        <div
-          className={`topbar-section ${activeTab === 'classes' ? 'active' : ''}`}
-          onClick={() => handleTabClick('classes')}
-        >
-          Classes
-        </div>
-        <div
-          className={`topbar-section ${activeTab === 'instances' ? 'active' : ''}`}
-          onClick={() => handleTabClick('instances')}
-        >
-          Instances
-        </div>
-        <div
-          className={`topbar-section ${activeTab === 'bosses' ? 'active' : ''}`}
-          onClick={() => handleTabClick('bosses')}
-        >
-          Bosses
-        </div>
-      </div>
-      <div className="topbar-content">
-        {/* Content for the active tab goes here */}
-        {activeTab === 'game history' && <div><GameHistory/></div>}
-        {activeTab === 'about' && <div>About content goes here</div>}
-        {activeTab === 'classes' && <div>Classes content goes here</div>}
-        {activeTab === 'instances' && <div>Instances content goes here</div>}
-        {activeTab === 'bosses' && <div>Bosses content goes here</div>}
       </div>
     </div>
   );
