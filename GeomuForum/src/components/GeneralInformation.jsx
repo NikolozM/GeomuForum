@@ -16,15 +16,115 @@ const GeneralInformation = () => {
 
   return (
     <div className='infoContainer'>
-      <h2>
-        blablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaa
-        aaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaa
-        aaablablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaa
-        aaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaa
-        blablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaa
-        aaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaa
-        aaablablaaaaaaaaaaaaaaaaaaablablaaaaaaaaaaaaaaaaaaablablaaaaaa
-      </h2>
+      <h3>Launching new Dream x100</h3>
+
+      <h5>
+        Dear friends, we've fixed a lot of bugs and finalized the Dream x100 server. n now we are ready to welcome old
+        and new players in Mu Online Classic PvP. n we've changed attitudes, and we've worked out a lot of things about
+        player communication.{' '}
+      </h5>
+
+      <h3>Important dates! </h3>
+
+      <h5>
+        Server Launch: February 11 at 20:00 Kiev time First Castle Siege: February 25 at 20:00 Kiev time - 2 weeks after
+        the official start of the server{' '}
+      </h5>
+
+      <h3>Basic information!</h3>
+
+      <h5>
+        Server Version: Season 6 Episode 3 Server Ratings: x100 Master Level Ratings: x10 (Swamp of Calmness location)
+        Available characters: DW | DK | ELF | MG | DL | SUM | RF Zen Formula: 100*Monster Level + Item Zen Drop
+      </h5>
+
+      <h3>Restrictions! </h3>
+
+      <h5>
+        Blood Castle Entry Restriction: 4 entries per day per character (reset at 11:00 server time) Chaos Castle Entry
+        Restriction: 4 entries per day per character (reset at 11:00 server time) Devil Square Entry Restriction: 4
+        entries per day per character (reset at 11:00 server time) Maximum number of Excellent options: 3 Maximum number
+        of Socket options: 5 Maximum server reset: 5 Maximum stats on server: 32 767 Maximum Master Level on the server:
+        400 Maximum number of open windows: 3
+      </h5>
+
+
+
+
+
+
+
+
+      <h3>Launching new Dream x100</h3>
+
+<h5>
+  Dear friends, we've fixed a lot of bugs and finalized the Dream x100 server. n now we are ready to welcome old
+  and new players in Mu Online Classic PvP. n we've changed attitudes, and we've worked out a lot of things about
+  player communication.{' '}
+</h5>
+
+<h3>Important dates! </h3>
+
+<h5>
+  Server Launch: February 11 at 20:00 Kiev time First Castle Siege: February 25 at 20:00 Kiev time - 2 weeks after
+  the official start of the server{' '}
+</h5>
+
+<h3>Basic information!</h3>
+
+<h5>
+  Server Version: Season 6 Episode 3 Server Ratings: x100 Master Level Ratings: x10 (Swamp of Calmness location)
+  Available characters: DW | DK | ELF | MG | DL | SUM | RF Zen Formula: 100*Monster Level + Item Zen Drop
+</h5>
+
+<h3>Restrictions! </h3>
+
+<h5>
+  Blood Castle Entry Restriction: 4 entries per day per character (reset at 11:00 server time) Chaos Castle Entry
+  Restriction: 4 entries per day per character (reset at 11:00 server time) Devil Square Entry Restriction: 4
+  entries per day per character (reset at 11:00 server time) Maximum number of Excellent options: 3 Maximum number
+  of Socket options: 5 Maximum server reset: 5 Maximum stats on server: 32 767 Maximum Master Level on the server:
+  400 Maximum number of open windows: 3
+</h5>
+
+
+
+
+
+
+
+
+<h3>Launching new Dream x100</h3>
+
+<h5>
+  Dear friends, we've fixed a lot of bugs and finalized the Dream x100 server. n now we are ready to welcome old
+  and new players in Mu Online Classic PvP. n we've changed attitudes, and we've worked out a lot of things about
+  player communication.{' '}
+</h5>
+
+<h3>Important dates! </h3>
+
+<h5>
+  Server Launch: February 11 at 20:00 Kiev time First Castle Siege: February 25 at 20:00 Kiev time - 2 weeks after
+  the official start of the server{' '}
+</h5>
+
+<h3>Basic information!</h3>
+
+<h5>
+  Server Version: Season 6 Episode 3 Server Ratings: x100 Master Level Ratings: x10 (Swamp of Calmness location)
+  Available characters: DW | DK | ELF | MG | DL | SUM | RF Zen Formula: 100*Monster Level + Item Zen Drop
+</h5>
+
+<h3>Restrictions! </h3>
+
+<h5>
+  Blood Castle Entry Restriction: 4 entries per day per character (reset at 11:00 server time) Chaos Castle Entry
+  Restriction: 4 entries per day per character (reset at 11:00 server time) Devil Square Entry Restriction: 4
+  entries per day per character (reset at 11:00 server time) Maximum number of Excellent options: 3 Maximum number
+  of Socket options: 5 Maximum server reset: 5 Maximum stats on server: 32 767 Maximum Master Level on the server:
+  400 Maximum number of open windows: 3
+</h5>
     </div>
   );
 };

@@ -19,9 +19,7 @@ function App() {
         <div className='topbar-content'>
           {/* Content for the active tab goes here */}
           {activeTab === 'General Information' && (
-            <div>
               <GeneralInformation />
-            </div>
           )}
           {activeTab === 'Server Currencies' && <div>Server Currencies content goes here</div>}
           {activeTab === 'Event System' && <div>Event System content goes here</div>}
@@ -31,10 +29,7 @@ function App() {
           {activeTab === 'Vip System' && <div>Bosses content goes here</div>}
         </div>
       </div>
-      <div className='my-component-footer'>
         <Footer />
-        {/* Your footer content */}
-      </div>
     </div>
   );
 }
