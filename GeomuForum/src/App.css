@@ -1,6 +1,5 @@
 @import 'typeface-roboto';
 
-
 html,
 body {
   font-family: 'Roboto', sans-serif;
@@ -8,61 +7,71 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./assets/img.jpg');
-  background-size: cover;
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-color: #000;
-  /* min-height: calc(100vh - 100px); */
-  background-position-x: center, center, center;
+  background-color: #05090c;
+}
+.main-content {
+  background: url('./assets/yvelazemagari.PNG');
+  background-repeat: repeat-y;
+  min-height: 800px;
+  background-size: contain;
+  object-fit: cover;
+  background-position: center;
+  margin: 0px 300px;
+  /* background-position-x: center, center, center;
   background-position-y: top, bottom, center;
   background-size: initial, initial, initial;
   background-attachment: initial, initial, initial;
   background-origin: initial, initial, initial;
-  background-clip: initial, initial, initial;
-  /* overflow:hidden; */
-}
-
-.my-component {
-  min-height: calc(100vh - 100px);
-  margin: 0 200px;
+  background-clip: initial, initial, initial; */
 }
 
 .topbar {
+  background-image: url('./assets/zeda.PNG');
+  background-repeat: no-repeat;
+  height: 500px;
   letter-spacing: 1px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  /* padding: 350px 130px 0px 130px; */
-  padding: 24% 0 0 0;
+  align-items: end;
 }
 
-.topbar ul h2{
+.topbar ul h2 {
   font-size: 18px;
+}
+.topbar-categories{
+  display:flex;
+  width:100%;
+  justify-content: space-between;
+  padding: 0 50px;
 }
 
 .topbar-section {
   font-size: 18px;
   cursor: pointer;
+  margin-bottom: 20px;
+  padding: 0 0px;
 }
 
 .topbar-section.active {
   transition: transform 0.2s ease-out;
   transform-origin: bottom center;
-  color:rgb(255, 123, 0)
+  color: rgb(255, 123, 0);
 }
 
- .topbar ul h2 {
-  text-decoration: none; 
-  transition: transform 0.2s ease-out; 
+.topbar ul h2 {
+  text-decoration: none;
+  transition: transform 0.2s ease-out;
 }
 
 .topbar ul h2:hover {
   /* text-decoration: underline;  */
-  transform: scale(1.1); 
-} 
-
+  transform: scale(1.1);
+}
 
 footer {
   background-color: rgba(0, 0, 0, 0.5);
@@ -73,13 +82,13 @@ footer {
   background-image: url('./assets/bottom-bg.jpg');
 }
 
-.footer-content {
+/* .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
 .footer-section {
   width: 40%;
@@ -114,7 +123,7 @@ ul li a:hover {
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 1280px) {
+/* @media only screen and (max-width: 1280px) {
   .my-component {
     min-height: calc(100vh - 100px);
     margin: 0 120px;
@@ -124,16 +133,15 @@ ul li a:hover {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    /* padding: 350px 130px 0px 130px; */
+    padding: 350px 130px 0px 130px;
     padding: 20% 0 0 0;
   }
   .topbar ul h2{
     font-size: 18px;
   }
-}
+} */
 
-
-
+/* 
 @media only screen and (max-width: 900px) {
   .my-component {
     min-height: calc(100vh - 100px);
@@ -144,10 +152,10 @@ ul li a:hover {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    /* padding: 350px 130px 0px 130px; */
+    padding: 350px 130px 0px 130px;
     padding: 22% 0 0 0;
   }
   .topbar ul h2{
     font-size: 14px;
   }
-}
+} */
