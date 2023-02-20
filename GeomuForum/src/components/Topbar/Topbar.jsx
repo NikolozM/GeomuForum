@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
-import GameHistory from './components/GeneralInformation';
+import '../../App.css';
 
-function Topbar({ handleTabClick, setActiveTab, activeTab }) {
+function Topbar({ handleTabClick, activeTab }) {
   return (
     <div className='topbar'>
       <div className='topbar-categories'>

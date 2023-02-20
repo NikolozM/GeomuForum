@@ -1,10 +1,14 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import './App.css';
-import Topbar from './Topbar';
+import Topbar from './components/Topbar/Topbar';
 import Footer from './Footer';
-import GeneralInformation from './components/GeneralInformation';
-import ServerCurrencies from './components/ServerCurrencies'
+import GeneralInformation from './components/Generalinformation/GeneralInformation';
+import ServerCurrencies from './components/Servercurrencies/ServerCurrencies';
+import EventSystem from './components/EventSystem/EventSystem';
+import VipSystem from './components/VipSystem/VipSystem';
+import BoxSystem from './components/BoxSystem/BoxSystem';
+import GameCommands from './components/GameCommands/GameCommands';
+import ResetInformation from './components/ResetInformation/ResetInformation';
 function App() {
   const [activeTab, setActiveTab] = useState('General Information');
 
@@ -18,12 +22,36 @@ function App() {
       <div className='main-content'>
         {/* Content for the active tab goes here */}
         {activeTab === 'General Information' && <GeneralInformation />}
-        {activeTab === 'Server Currencies' && <div><ServerCurrencies/></div>}
-        {activeTab === 'Event System' && <div>Event System content goes here</div>}
-        {activeTab === 'Box System' && <div>Box System content goes here</div>}
-        {activeTab === 'Reset Information' && <div>Reset Information content goes here</div>}
-        {activeTab === 'Game Commands' && <div>Game Commands content goes here</div>}
-        {activeTab === 'Vip System' && <div>Bosses content goes here</div>}
+        {activeTab === 'Server Currencies' && (
+          <div>
+            <ServerCurrencies />
+          </div>
+        )}
+        {activeTab === 'Event System' && (
+          <div>
+            <EventSystem />
+          </div>
+        )}
+        {activeTab === 'Box System' && (
+          <div>
+            <BoxSystem />
+          </div>
+        )}
+        {activeTab === 'Reset Information' && (
+          <div>
+            <ResetInformation />
+          </div>
+        )}
+        {activeTab === 'Game Commands' && (
+          <div>
+            <GameCommands />
+          </div>
+        )}
+        {activeTab === 'Vip System' && (
+          <div>
+            <VipSystem />
+          </div>
+        )}
       </div>
       <Footer />
     </div>

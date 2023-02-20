@@ -1,0 +1,36 @@
+.infoContainer {
+  color: #fcffe7;
+  /* margin: 100px 100px 0px 100px; */
+  font-size: 18px;
+  padding: 50px 100px;
+}
+
+.infoContainer h5 {
+  color: #bad7e9;
+}
+
+.infoContainer section {
+  /* border-bottom: 1px solid #EB455F; */
+  /* border-image-source: linear-gradient(to left, #BAD7E9, #EB455F); */
+  border-image: linear-gradient(to left, #eb455f, #2b3467) 30;
+  border-width: 2px;
+  border-bottom-style: solid;
+}
+
+@media only screen and (max-width: 900px) {
+  .infoContainer {
+    color: #fcffe7;
+    /* margin: 100px 100px 0px 100px; */
+    font-size: 14px;
+    padding: 20px 50px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .infoContainer {
+    color: #fcffe7;
+    /* margin: 100px 100px 0px 100px; */
+    font-size: 14px;
+    padding: 20px 50px;
+  }
+}

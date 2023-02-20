@@ -1,18 +1,6 @@
 import React, { useState } from 'react';
-import './GeneralInformation.css';
+import '../Generalinformation/GeneralInformation.css'
 const ServerCurrencies = () => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(5);
-
-  const gameHistory = [{ title: 'dwqdqwwq', content: 'wqdwqdqqw' }]; // replace with actual game history data
-
-  // // Get current posts
-  // const indexOfLastPost = currentPage * postsPerPage;
-  // const indexOfFirstPost = indexOfLastPost - postsPerPage;
-  // const currentPosts = gameHistory.slice(indexOfFirstPost, indexOfLastPost);
-
-  // Change page
-  // const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
     <div className='infoContainer'>
